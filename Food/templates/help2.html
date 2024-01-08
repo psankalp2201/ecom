@@ -1,0 +1,452 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Odering System </title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="../static/style.css">
+
+    <link href="{% static 'style.css' %}" rel="stylesheet">
+    <link href="{% static 'script.js' %}" rel="stylesheet">
+
+</head>
+<body>
+    
+<!-- header section starts  -->
+
+<header>
+
+    <a href="#" class="logo"><i class="fas fa-utensils"></i>Food Ordering System</a>
+
+    <div id="menu-bar" class="fas fa-bars"></div>
+
+    <nav class="navbar">
+        <a href="#home">Home</a>
+        <a href="#speciality">Speciality</a>
+        <a href="#popular">Popular</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#review">Review</a>
+        <a href="#order">Order</a>
+        <a href="contact">Contact</a>
+        <a href="logout">Logout</a>
+    </nav>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+    <div class="content">
+        <h3>Food made with love</h3>
+        <p>Food is such a basic need, a fundamental right, and such a simple pleasure</p>
+        <a href="#" class="btn">order now</a>
+    </div>
+
+    <div class="image">
+        <img src="../static/images/home-img.png" alt="">
+    </div>
+
+</section>
+
+<!-- home section ends -->
+
+<!-- speciality section starts  -->
+
+<section class="speciality" id="speciality">
+
+    <h1 class="heading"> our <span>speciality</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img class="image" src="../static/images/s-img-1.jpg" alt="">
+            <div class="content">
+                <img src="../static/images/s-1.png" alt="">
+                <h3>Tasty Burger</h3>
+                <p>I always say,Eat clean stay fit; have a burger to stay sane it like my shane straight up and honest, Food with a New Passion; Taste the Best that Surprise you..</p>
+            </div>
+        </div>
+        <div class="box">
+            <img class="image" src="../static/images/s-img-2.jpg" alt="">
+            <div class="content">
+                <img src="../static/images/s-2.png" alt="">
+                <h3>Tasty Pizza</h3>
+                <p>pizza is always the answer.always great, never greasy.eat to live, live for pizza.keep calm and eat pizza.when in doubt, pizza.the party can't start without pizza.</p>
+            </div>
+        </div>
+        <div class="box">
+            <img class="image" src="../static/images/s-img-3.jpg" alt="">
+            <div class="content">
+                <img src="../static/images/s-3.png" alt="">
+                <h3>Cold Ice-Cream</h3>
+                <p>The next generation of ice cream. Real ice cream for real people. So delicious, you’ll scream. Ice cream that’s out of this world. It’s always ice cream time.</p>
+            </div>
+        </div>
+        <div class="box">
+            <img class="image" src="../static/images/s-4.png" alt="">
+            <div class="content">
+                <img src="../static/images/s-4.png" alt="">
+                <h3>Cold Drinks</h3>
+                <p>You’ll never feel parched again. Great refreshing taste.bThirst quenching drink made just for you. The drink of the nation. Get into the refreshing taste.</p>
+            </div>
+        </div>
+        <div class="box">
+            <img class="image" src="../static/images/s-img-5.jpg" alt="">
+            <div class="content">
+                <img src="../static/images/s-5.png" alt="">
+                <h3>Tasty Sweets</h3>
+                <p>You Deserve A Sweet Treat Today. Designed To Be Sweet, Made For Your Palate. There's Lots Of Fun In Sweet.We Bring Out The Best In Sweets.The Sweet Treat That Smiles Back.</p>
+            </div>
+        </div>
+        <div class="box">
+            <img class="image" src="../static/images/s-img-6.jpg" alt="">
+            <div class="content">
+                <img src="../static/images/s-6.png" alt="">
+                <h3>Healty Breakfast</h3>
+                <p>Good Food- Good Health.A healthy start to the day.The most important meal of the day. We have something crispy and crunchy for you.Be a fruit loop in a world of cheerios</p>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- speciality section ends -->
+
+<!-- popular section starts  -->
+
+<section class="popular" id="popular">
+
+    <h1 class="heading"> most <span>popular</span> foods </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <span class="price"> $5 - $20 </span>
+            <img src="../static/images/p-1.jpg" alt="">
+            <h3>tasty burger</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            <a href="home2" class="btn">order now</a>
+        </div>
+        <div class="box">
+            <span class="price"> $5 - $20 </span>
+            <img src="../static/images/p-2.jpg" alt="">
+            <h3>Tasty Cakes</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            <a href="#" class="btn">order now</a>
+        </div>
+        <div class="box">
+            <span class="price"> $5 - $20 </span>
+            <img src="../static/images/p-3.jpg" alt="">
+            <h3>tasty sweets</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            <a href="#" class="btn">order now</a>
+        </div>
+        <div class="box">
+            <span class="price"> $5 - $20 </span>
+            <img src="../static/images/p-4.jpg" alt="">
+            <h3>Tasty Cup_Cakes</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            <a href="#" class="btn">order now</a>
+        </div>
+        <div class="box">
+            <span class="price"> $5 - $20 </span>
+            <img src="../static/images/p-5.jpg" alt="">
+            <h3>Cold Drinks</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            <a href="#" class="btn">order now</a>
+        </div>
+        <div class="box">
+            <span class="price"> $5 - $20 </span>
+            <img src="../static/images/p-6.jpg" alt="">
+            <h3>cold ice-cream</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            <a href="#" class="btn">order now</a>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- popular section ends -->
+
+<!-- steps section starts  -->
+
+<div class="step-container">
+
+    <h1 class="heading">how it <span>works</span></h1>
+
+    <section class="steps">
+
+        <div class="box">
+            <img src="../static/images/step-1.jpg" alt="">
+            <h3>choose your favorite food</h3>
+        </div>
+        <div class="box">
+            <img src="../static/images/step-2.jpg" alt="">
+            <h3>free and fast delivery</h3>
+        </div>
+        <div class="box">
+            <img src="../static/images/step-3.jpg" alt="">
+            <h3>easy payments methods</h3>
+        </div>
+        <div class="box">
+            <img src="../static/images/step-4.jpg" alt="">
+            <h3>and finally, enjoy your food</h3>
+        </div>
+    
+    </section>
+
+</div>
+
+<!-- steps section ends -->
+
+<!-- gallery section starts  -->
+
+<section class="gallery" id="gallery">
+
+    <h1 class="heading"> our food <span> gallery </span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="../static/images/g-1.jpg" alt="">
+            <div class="content">
+                <h3>tasty food</h3>
+                <p>The Food on call service is good, innovative and fast. Food taste is also good.</p>
+                <a href="#" class="btn">ordern now</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="../static/images/g-2.jpg" alt="">
+            <div class="content">
+                <h3>tasty food</h3>
+                <p>Good food. Good mood.You're in good hands with us.</p>
+                <a href="#" class="btn">ordern now</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="../static/images/g-3.jpg" alt="">
+            <div class="content">
+                <h3>tasty food</h3>
+                <p>Flavors for royalty.Bringing class to cuisine.</p>
+                <a href="#" class="btn">ordern now</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="../static/images/g-4.jpg" alt="">
+            <div class="content">
+                <h3>tasty food</h3>
+                <p>Foodies welcome here.Something hot. Something tasty.</p>
+                <a href="#" class="btn">ordern now</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="../static/images/g-5.jpg" alt="">
+            <div class="content">
+                <h3>tasty food</h3>
+                <p>Hundreds of flavors under one roof.Food that makes you say wow.</p>
+                <a href="#" class="btn">ordern now</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="../static/images/g-6.jpg" alt="">
+            <div class="content">
+                <h3>tasty food</h3>
+                <p>A pinch of passion in every dish.You can’t eat here just once.</p>
+                <a href="#" class="btn">ordern now</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="../static/images/g-7.jpg" alt="">
+            <div class="content">
+                <h3>tasty food</h3>
+                <p>Fast and yummy. Good for your tummy. Taste that makes you go yummmm.</p>
+                <a href="#" class="btn">ordern now</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="../static/images/g-8.jpg" alt="">
+            <div class="content">
+                <h3>tasty food</h3>
+                <p>Food that makes you happy.Wake up your taste buds..</p>
+                <a href="#" class="btn">ordern now</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="../static/images/g-9.jpg" alt="">
+            <div class="content">
+                <h3>tasty food</h3>
+                <p>Food to put you in a good mood. Quick eats for busy people.</p>
+                <a href="#" class="btn">ordern now</a>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- gallery section ends -->
+
+<!-- review section starts  -->
+
+<section class="review" id="review">
+
+    <h1 class="heading"> our customers <span>reviews</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="../static/images/vikas.jpeg" alt="">
+            <h3>vikas pandey</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            <p>I love the most feature of the food Odering system is to order in very simple steps,experience great about food quality,delivery and issues solving.</p>
+        </div>
+        <div class="box">
+            <img src="../static/images/vijay.jpeg" alt="">
+            <h3>vijay shankar</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            <p>I love the most feature of the food Odering system is to order in very simple steps,experience great about food quality,delivery and issues solving.</p>
+        </div>
+        <div class="box">
+            <img src="../static/images/v2.jpeg" alt="">
+            <h3>sudhansu pandey</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            <p>I love the most feature of the food Odering system is to order in very simple steps,experience great about food quality,delivery and issues solving.</p>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- review section ends -->
+
+<!-- order section starts  -->
+
+<section class="order" id="order">
+
+    <h1 class="heading"> <span>order</span> now </h1>
+
+    <div class="row">
+        
+        <div class="image">
+            <img src="../static/images/order-img.jpg" alt="">
+        </div>
+
+        <form action="">
+
+            <div class="inputBox">
+                <input type="text" placeholder="name">
+                <input type="email" placeholder="email">
+            </div>
+
+            <div class="inputBox">
+                <input type="number" placeholder="number">
+                <input type="text" placeholder="food name">
+            </div>
+
+            <textarea placeholder="address" name="" id="" cols="30" rows="10"></textarea>
+
+            <input type="submit" value="order now" class="btn">
+
+        </form>
+
+    </div>
+
+</section>
+
+<!-- order section ends -->
+
+<!-- footer section  -->
+
+<section class="footer">
+
+    <div class="share">
+        <a href="#" class="btn">facebook</a>
+        <a href="#" class="btn">twitter</a>
+        <a href="#" class="btn">instagram</a>
+        <a href="#" class="btn">pinterest</a>
+        <a href="#" class="btn">linkedin</a>
+    </div>
+
+    <h1 class="credit"> created by <span> United Institute of Technology </span> | all rights reserved! </h1>
+
+</section>
+
+<!-- scroll top button  -->
+<a href="#home" class="fas fa-angle-up" id="scroll-top"></a>
+
+<!-- loader  -->
+<div class="loader-container">
+    <img src="../static/images/loader.gif" alt="">
+</div>
+
+<!-- custom js file link  -->
+<script src="../static/script.js"></script>
+
+
+</body>
+</html>
